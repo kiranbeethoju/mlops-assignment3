@@ -14,9 +14,9 @@ This project implements a complete MLOps pipeline for California Housing price p
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
-2. Train model: `python train.py`
-3. Test model: `python predict.py`
-4. Quantize model: `python quantize.py`
+2. Train model: `python3 train.py`
+3. Test model: `python3 predict.py`
+4. Quantize model: `python3 quantize.py`
 
 ## Branches
 - `main`: Initial setup
@@ -24,6 +24,11 @@ This project implements a complete MLOps pipeline for California Housing price p
 - `docker_ci`: Docker and CI/CD
 - `quantization`: Model quantization
 
+## Results
+- Original Sklearn Model R2 Score: 0.5758
+- Quantized Model R2 Score: -0.1799
+- Model Size - unquant_params.joblib: 0.40 KB
+- Model Size - quant_params.joblib: 0.59 KB
+
 ## Team
-- Shubham Bagwari: p22cs201@iitj.ac.in
-- Divyaansh Mertia: m23cse013@iitj.ac.in 
+- Kirankumar Beethoju: G24Ai1115 
