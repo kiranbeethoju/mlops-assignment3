@@ -25,5 +25,4 @@ This project implements a complete MLOps pipeline for California Housing price p
 - `quantization`: Model quantization
 
 ## Team
-- Shubham Bagwari: p22cs201@iitj.ac.in
-- Divyaansh Mertia: m23cse013@iitj.ac.in 
+- Kirankumar Beethoju: G24Ai1115 
